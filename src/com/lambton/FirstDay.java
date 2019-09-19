@@ -35,6 +35,9 @@ public class FirstDay
         s3.StudentName="Karan";
         s3.display();
 
-
+        for(int i=0;i<=10;i++)
+        {
+            System.out.println("my name is: Ankita");
+        }
     }
 }
