@@ -25,5 +25,16 @@ public class FirstDay
         s1.setValues();
         s1.display();
 
+        Student s2=new Student();
+        s2.StudentID=2;
+        s2.StudentName="Kamal";
+        s2.display();
+
+        Student s3=new Student();
+        s3.StudentID=3;
+        s3.StudentName="Karan";
+        s3.display();
+
+
     }
 }
