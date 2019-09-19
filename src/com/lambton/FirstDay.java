@@ -11,8 +11,19 @@ public class FirstDay
         a=10;
         b=20;
 
-                 c = a + b;
+        c = a + b;
                  //Submit result
         System.out.println("the sum is " +c);
+        int x=Integer.MAX_VALUE;
+        System.out.println("x :" +x);
+
+        int y= x + 1;
+        System.out.println("y:" +y);
+        System.out.println("min:" +Integer.MIN_VALUE);
+
+        Student s1=new Student();
+        s1.setValues();
+        s1.display();
+
     }
 }
